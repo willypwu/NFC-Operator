@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BDBDBD</color>
+    <color name="colorPrimaryDark">#BDBDBD</color>
+    <color name="colorAccent">#009688</color>
+
+    <color name="action_bar_title_text_color">#272727</color>
+    <color name="action_bar_item_text_color">#616161</color>
+
+    <color name="touch_effect_icon_default_color">#424242</color>
+    <color name="touch_effect_text_view_touch_bg_color">#d0d0d0	</color>
+
+    <color name="nfc_operator_backgroud_color">#9E9E9E</color>
+
+    <color name="list_item_title_color_normal">@android:color/black</color>
+    <color name="list_item_color">#E0E0E0</color>
+    <color name="list_item_title_color">#616161</color>
+
+    <color name="ripple_color">#585858</color>
+</resources>

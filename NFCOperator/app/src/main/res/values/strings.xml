@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NFC Operator</string>
+
+    <string name="action_bar_title_nfc_operator">NFC Operator</string>
+    <string name="action_bar_title_nfc_reader">@string/nfc_reader</string>
+    <string name="action_bar_title_nfc_writer">@string/nfc_writer</string>
+
+    <string name="nfc_reader">NFC Reader</string>
+    <string name="nfc_writer">NFC Writer</string>
+
+    <string name="nfc_not_avaliable">NFC is Not avaliable</string>
+
+    <string name="nfc_write_but_cannot_detect">Try to write, but cannot detect NFC.</string>
+    <string name="nfc_write_successful">Write NFC Tag successful.</string>
+    <string name="nfc_write_try_again">Something incorect, try again.</string>
+    <string name="nfc_detect_tag">Detect NFC Tag.</string>
+
+    <string name="string_back">Back</string>
+
+    <string name="string_check_number">Check Number :</string>
+    <string name="string_serial_number">Serial Number :</string>
+    <string name="string_button_write">Write</string>
+    <string name="string_enter_serial_number">Enter Serial Number</string>
+    <string name="string_enter_check_number">Enter Check Number</string>
+    <string name="string_close_nfc_tag">Close the NFC Tag</string>
+</resources>

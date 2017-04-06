@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nfc_operator_backgroud_color"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nfc_operator_list_view_title_padding"
+        android:gravity="center_horizontal"
+        android:textColor="@color/list_item_title_color"
+        android:textSize="@dimen/nfc_operator_list_view_title_text_size"
+        android:visibility="gone"/>
+
+    <ListView android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nfc_operator_list_view_padding"
+        android:paddingLeft="@dimen/nfc_operator_list_view_padding"
+        android:paddingRight="@dimen/nfc_operator_list_view_padding"
+        android:dividerHeight="@dimen/nfc_operator_list_divider_height"
+        android:divider="@color/nfc_operator_backgroud_color"
+        />
+</LinearLayout>

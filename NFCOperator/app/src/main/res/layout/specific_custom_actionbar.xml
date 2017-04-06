@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/custom_action_bar_height" >
+
+    <com.willy.nfc.nfcoperator.widget.TouchEffectTextView
+        android:id="@+id/left_control"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/action_bar_item_text_color"
+        android:textSize="@dimen/custom_action_bar_clickable_item_text_size"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/action_bar_title_text_color"
+        android:textSize="@dimen/custom_action_bar_title_text_size" />
+
+    <com.willy.nfc.nfcoperator.widget.TouchEffectTextView
+        android:id="@+id/right_control"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/action_bar_item_text_color"
+        android:textSize="@dimen/custom_action_bar_clickable_item_text_size"/>
+</RelativeLayout>

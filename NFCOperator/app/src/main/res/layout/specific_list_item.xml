@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:layoutDirection="locale"
+    android:orientation="vertical"
+    android:background="@drawable/common_corner_bg_normal">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ripple_effect"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleColor="@color/ripple_color"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleRoundedCorners="10dp"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleInAdapter="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/list_item_text_margin_left"
+                android:textColor="@color/list_item_title_color_normal"
+                android:textSize="@dimen/list_item_title_text_size"
+                />
+        </RelativeLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</LinearLayout>
